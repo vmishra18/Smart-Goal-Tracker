@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Goal</title>
+   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <!--BootStrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- External Css -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <!--Bootstrap Scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/b892dfc0be.js" crossorigin="anonymous"></script>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+  body {
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    
+  }
+
+  .navbar {
+    padding: 0.2% 4% 0.2% 6%
+  }
+
+  .nav-item {
+    padding: 0 10px;
+  }
+
+  .navbar-brand {
+    font-size: 2.0rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .nav-link {
+    font-size: 17px;
+  }
+
+  .dev {
+    color: #D83A56;
+  }
+
+  .container-fluid {
+    padding: 73px 2px 2px 2px;
+  }
+
+  .comp-logo {
+    margin-left: 3%;
+  }
+
+  .excel {
+    padding: 2% 2% 2% 2%;
+    margin-left: 1%;
+  }
+  .excel2{
+    margin-left: 1%;
+  }
+
+  .exd {
+    background-color: #EEEEEE;
+  }
+
+  .fa {
+    padding: 0 8px 0 5px;
+  }
+
+  .fa-dove {
+    padding: 0 8px 0 8px;
+  }
+
+  .about {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    /*background-color: #000000;*/
+    background-color: #EEEEEE;
+  }
+
+  h4 {
+    padding-top: 100px;
+    color: #9ca6af;
+  }
+
+  h1 {
+    color: black;
+  }
+  h2{
+    color: #FFF2F2;
+     text-shadow: 2px 2px 5px grey;
+
+  }
+
+  h3 {
+    padding: 2% 30% 1% 30%;
+    color: #848f99;
+    text-align: inherit;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .best-emp {
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .para {
+    padding: 0.5% 2% 2% 2%;
+  }
+
+  .btn-outline-primary {
+    margin-bottom: 100px;
+  }
+
+  .btn-outline-primary:hover {
+    background: #171010;
+    color: white;
+    transform: scale(1.05);
+  }
+
+  .btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+  }
+
+  .row {
+    margin-left: 35%;
+  }
+
+  .daily {
+    margin: 0 10px 20px 40px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  /*.goal-head {
+    color: #393E46;
+  }*/
+
+  #brand-head {
+    margin left: 10%;
+  }
+
+  .training-sec {
+    padding: 5% 10% 0 10%;
+    text-align: center;
+    text-decoration: inherit;
+    font-weight: lighter;
+  }
+
+  .dev {
+    color: #81B214;
+  }
+
+  .graph-cards {
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    background-color: #D1D1D1;
+    width: 1200px;
+    height: 500px;
+
+  }
+  .graph-cards:hover{
+    background: #171010;
+    color: white;
+      transform: scale(1.05);
+  }
+
+  #footer {
+    background-color: #203239;
+    text-align: center;
+  }
+
+  #footer .footer {
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+
+  #footer h2 {
+    color: #FAEEE7;
+    font-weight: 500;
+    font-size: 2.8rem;
+    letter-spacing: 0.1rem;
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+
+  #footer .social-icon {
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 37%;
+  }
+
+  #footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px 0 10px;
+  }
+
+  #footer .social-item img {
+    height: 60px;
+    filter: grayscale(1);
+    transition: 0.3s ease filter;
+  }
+
+  #footer .social-item:hover img {
+    filter: grayscale(0);
+  }
+
+  #footer p {
+    color: #FAEEE7;
+    font-size: 1rem;
+    margin-left: 25%;
+  }
+
+  /*Footer */
+  #footer p {
+    color: #FAEEE7;
+    font-size: 1rem;
+    margin-left: 0;
+  }
+
+  #footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 2px 0 2px;
+  }
+
+  #footer .social-icon {
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 40%;
+  }
+  }
+
+  .dropdown {
+    margin-left: 30%;
+  }
+
+  .carousel-control-prev {
+    margin-top: 20%;
+    color: black;
+  }
+
+  .carousel-control-next {
+    margin-top: 20%;
+    color: black;
+  }
+
+  .powerbi {
+    margin: 2% 2% 2% 5%;
+  }
+#myInput{
+  margin-left: 85%;
+  margin-bottom: 20px;
+}
+.table-data{
+  margin: 40px 30px 40px 30px;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.nav-link{
+  font-weight: bold;
+}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  h2{
+    margin-left: 0;
+    font-size: 160%;
+  }
+  #myInput{
+    margin-left: 0;
+    width: 30%;
+  }
+
+}
+  </style>
+
+</head>
+
+<body class="bg-dark">
+  <section id="title">
+    <!--Nav Bar -->
+    <div class="container-fluid">
+      <!--Nav Bar-->
+      <nav class="navbar fixed-top bg-dark navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Smart Goal Tracker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/users/goal">Goals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/train/training">Training</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/graph">Graph</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <section>
+    <div id="brand-head">
+      <img src="images/download.png" alt="">
+
+    </div>
+  </section>
+  <section class="daily">
+    <div class="row">
+
+        <h2 class="goal-head">Your ultimate workspace.</h1>
+      </div>
+
+  </section>
+
+  <section >
+
+
+    <div class="table-data">
+<input id="myInput" type="text" placeholder="Search..">
+<div class="table-responsive">
+
+    <table  id="customers" class="table ws-table-all" style="background-color:#fff;color:#000">
+      <thead>
+        <tr>
+            <th>S.N</th>
+            <th>Operations</th>
+            <th>Objective</th>
+            <th>Owner</th>
+            <th>Quarter</th>
+            <th>Description</th>
+            <th>Team</th>
+            <th>Role</th>
+            <th>Success_Metric</th>
+            <th>Current_Result</th>
+            <th>Current_Satus</th>
+        </tr>
+
+      </thead>
+
+        <%
+        if(userData.length!=0){
+        var i=1;
+        userData.forEach(function(data){
+        %>
+        <tbody  id="myTable">
+          <tr>
+              <td><%=i; %></td>
+              <td><%=data.Operations %></td>
+              <td><%=data.Objective %></td>
+              <td><%=data.Owner %></td>
+              <td><%=data.Quarter %></td>
+              <td><%=data.Description %></td>
+              <td><%=data.Team %></td>
+              <td><%=data.Role %></td>
+              <td><%=data.Success_Metric %></td>
+              <td><%=data.Current_Result %></td>
+              <td><%=data.Current_Satus %></td>
+
+          </tr>
+        </tbody>
+
+        <%  i++; }) %>
+        <% } else{ %>
+            <tr>
+                <td colspan="7">No Data Found</td>
+            </tr>
+        <% } %>
+    </table>
+    </div>
+  </div>
+  </section>
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+
+        <!--<h2><span class="dev">G</span>reenway <span class="dev">H</span>ealth</h2> -->
+
+        <h2>Contact Us</h2>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/GreenwayHealthLLC/"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/greenwayhealth/?hl=en"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/greenway?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/company/greenway-health"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2022. All rights reserved</p>
+    </div>
+  </section>
+  <script>
+  $(document).ready(function(){
+    $("#myInput").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#myTable tr").filter(function() {
+        $(this).toggle( $(this).text().toLowerCase().indexOf(value) > -1 );
+      });
+    });
+  });
+  </script>
+
+</body>
+
+</html>
