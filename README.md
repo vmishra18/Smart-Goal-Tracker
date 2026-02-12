@@ -11,3 +11,4 @@ A ‘SMART GOAL TRACKER’ will help resolve all problems that an organisation f
 ![Screenshot (38)](https://user-images.githubusercontent.com/64347475/175800573-2fae9e73-37d5-4e40-baf1-50130bed73c5.png)
 ![Screenshot (39)](https://user-images.githubusercontent.com/64347475/175800578-92d7d404-6b9d-4989-a60f-38e210d04b6b.png)
 ![Screenshot (40)](https://user-images.githubusercontent.com/64347475/175800583-07d0ef25-8244-4be8-938c-b7463bf64fbf.png)
+
